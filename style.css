@@ -1,6 +1,7 @@
 .calculator {
   width: 500px;
   margin: 20px auto;
+  border: 1px solid black;
 }
 
 .displayBox {
@@ -8,7 +9,7 @@
 }
 .displayBox input {
   padding: 15px;
-  width: 100%;
+  width: 93%;
   background-color: lightgrey;
   font-size: 2.5em;
   border: none;
@@ -16,7 +17,6 @@
 .btnbox {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
   flex-wrap: wrap;
   width: 100%;
 }
